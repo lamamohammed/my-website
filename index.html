@@ -1,22 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome | LAMA</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>لَمى | اكتشاف ثغرات وأمن سيبراني</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <div class="content">
-      <h1>Hello, I'm <span>LAMA</span></h1>
-      <p>Welcome to my simple website 🌸</p>
-      <a href="#contact" class="btn">Contact Me</a>
-    </div>
-  </div>
 
-  <footer id="contact">
-    <p>© 2025 LAMA | </p>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">Lama</h1>
+    <ul class="nav-links">
+      <li><a href="#home">الرئيسية</a></li>
+      <li><a href="#skills">مهاراتي</a></li>
+      <li><a href="#contact">تواصل</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>مرحباً! أنا لمى 👋</h2>
+      <p>طالبة مهتمة بتطوير المواقع والأمن السيبراني، أطمح لصنع حلول رقمية آمنة وجذابة.</p>
+      <a href="#skills" class="btn">استعرض مهاراتي</a>
+    </div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Cyber Icon" />
+  </section>
+
+  <!-- Skills Cards -->
+  <section class="cards" id="skills">
+    <h2>مهاراتي</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>HTML & CSS</h3>
+        <p>إنشاء صفحات وتصميمها بطريقة جذابة وسريعة الاستجابة.</p>
+      </div>
+      <div class="card">
+        <h3>Git & GitHub</h3>
+        <p>إدارة المشاريع ومشاركتها باستخدام أدوات التحكم في الإصدارات.</p>
+      </div>
+      <div class="card">
+        <h3>أساسيات الأمن السيبراني</h3>
+        <p>فهم الحماية الرقمية والتعامل مع التهديدات السيبرانية الأساسية.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact" id="contact">
+    <h2>تواصل معي</h2>
+    <form>
+      <input type="text" placeholder="اسمك" required />
+      <input type="email" placeholder="بريدك الإلكتروني" required />
+      <textarea placeholder="رسالتك" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 لَمى محمد. جميع الحقوق محفوظة.</p>
   </footer>
+
 </body>
 </html>
+
