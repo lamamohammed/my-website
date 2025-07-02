@@ -12,7 +12,6 @@ body {
   color: #fff;
 }
 
-/* Navbar */
 .navbar {
   background-color: #000;
   padding: 1rem 2rem;
@@ -45,7 +44,6 @@ body {
   color: #ff00cc;
 }
 
-/* Hero */
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +88,6 @@ body {
   background-color: #e600a1;
 }
 
-/* Cards */
 .cards {
   padding: 3rem 2rem;
   background-color: #111;
@@ -127,7 +124,6 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Contact */
 .contact {
   padding: 3rem 2rem;
   background-color: #0d0d0d;
@@ -170,7 +166,6 @@ body {
   background-color: #e600a1;
 }
 
-/* Footer */
 footer {
   background-color: #000;
   color: #999;
